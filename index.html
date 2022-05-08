@@ -23,32 +23,73 @@
   </style>
 </head>
 <body>
-    
+    <div class="card">
+      <div class="card-img">
 
-  <!-- Rating state start -->
+      </div>
+      <div class="card-body">
+        <h1 class="card-heading">
+          How did we do?
+        </h1>
 
-  How did we do?
+        <p class="card-text">
+          Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </p>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+        <form method="post" class="ratings-form">
+          <div class="ratings">
+            <label class="circle" for="1">
+              1
+              <input type="radio" id="1" name="rating">
+            </label>
+  
+            <label class="circle" for="2">
+              2
+              <input type="radio" id="2" name="rating">
+            </label>
+  
+            <label class="circle" for="3" >
+              3
+              <input type="radio" id="3" name="rating">
+            </label>
+  
+            <label class="circle" for="4" >
+              4
+              <input type="radio" id="4" name="rating">
+            </label>
+  
+            <label class="circle" for="5" >
+              5
+              <input type="radio" id="5" name="rating">
+            </label>
+          </div>
 
-  1 2 3 4 5
+          <button class="btn btn-submit">
+            Submit
+          </button>
+        </form>
 
-  Submit
+      </div>
+    </div>
 
-  <!-- Rating state end -->
+  <div class="card card-thank-you">
+    <div class="card-img">
 
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
+    </div>
+    <div class="user-rating">
+      You selected <span id="user-rating-display"></span> out of 5
+    </div>
+    <div class="card-body">
+      <h2 class="card-heading">
+        Thank you!
+      </h2>
+      <p class="card-text">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don't hesitate to get in touch!
+      </p>
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
