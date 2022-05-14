@@ -144,3 +144,38 @@ body{
     margin-bottom: 25px;
     padding: 8px 12px;
 }
+
+/* || Desktop Styles */
+@media (min-width: 500px) {
+    .card{
+        border-radius: 24px;
+        padding: 35px; 
+    }
+
+    .card.card-thank-you{
+        padding-top: 45px;
+    }
+
+    .card-text{
+        font-size: 15px;
+    }
+
+    .star-icon{
+        width: 47px;
+        height: 47px;
+    }
+
+    .radio-btn{
+        width: 49px;
+        height: 49px;
+    }
+
+    .card-img{
+        margin-bottom: 36px;
+    }
+
+    .btn{
+        margin-top: 32px;
+        font-size: 14px;
+    }
+}
