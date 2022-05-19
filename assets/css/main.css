@@ -34,12 +34,6 @@ body{
     padding: 0;
 }
 
-.attribution {
-    bottom: 0.625rem;
-    position: absolute;
-}
-
-
 .radio-btn,
 .star-icon{
     align-items: center;
