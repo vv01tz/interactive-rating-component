@@ -61,6 +61,7 @@ body{
 }
 
 .radio-input:checked + .radio-btn{
+    color: var(--white);
     background-color: var(--lightGrey);
 }
 
