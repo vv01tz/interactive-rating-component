@@ -52,6 +52,7 @@ body{
 }
 
 .radio-btn{
+    color: var(--lightGrey);
     cursor: pointer;
     position: relative;
 }
@@ -154,6 +155,10 @@ body{
 
     .card.card-thank-you{
         padding-top: 2.812rem;
+    }
+
+    .user-rating{
+        padding: 8px 18px;
     }
 
     .card-text{
