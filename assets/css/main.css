@@ -19,11 +19,19 @@ body{
     align-items: center;
     background-color: var(--darkerBlue);
     color: var(--white);
-    display: flex;
     flex-direction: column;
     font-family: "Overpass","sans-serif";
-    justify-content: center;
     min-height: 100%;
+}
+
+main,
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 100%;
 }
 
 *,
@@ -83,6 +91,14 @@ body{
 .btn:hover{
     background-color: var(--white);
     color: var(--primary);
+}
+
+fieldset{
+    border: none;
+}
+
+legend{
+    font-size: 0;
 }
 
 /* || Default card rules */
