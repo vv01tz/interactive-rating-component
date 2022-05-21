@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [fontendmentor]()
-- Live Site URL: [Vercel]()
+- Solution URL: [fontendmentor](https://www.frontendmentor.io/solutions/interactive-rating-component-MC-BCzW67d)
+- Live Site URL: [Vercel](https://interactive-rating-component-two-sand.vercel.app/)
 
 ## My process
 
